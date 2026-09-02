@@ -90,6 +90,7 @@ Now that your SSH key is set up, you can securely download (clone) the lab files
 4. Open an integrated terminal in VS Code by going to **Terminal > New Terminal** in the top menu.
 5. Run the script using `uv`:
    ```bash
+   uv init
    uv run hello.py
    ```
    *Note: `uv run` will automatically ensure it is using the correct Python version. You should see the output of the script printed to your terminal.*
