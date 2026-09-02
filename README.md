@@ -102,6 +102,7 @@ To run interactive data exploration notebooks, you will need the Jupyter extensi
 3. In your VS Code terminal, create a virtual environment for this repository and install the `ipykernel` package:
    ```bash
    uv add ipykernel
+   uv add pandas, seaborn
    ```
    *Note: uv add will automatically create the virtual environment (.venv) and update your project dependencies.*
 
